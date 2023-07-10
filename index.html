@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width", initial-scale="1.0">
+	<title>Pranav Bokade</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+	<div id="header">
+		<div class="container">
+			<nav>
+				<h1 class="logo"><span>P</span>ortfolio</h1>
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contactid">Contact</a></li>
+					<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-section">
+				<div class="header-text">
+					<h1>Hi, <span> I'm</span> Pranav Bokade</h1><br>
+					<h4><span class="auto-type"></span></h4>
+				</div>
+				<div>
+					<img src="images/bg3.png" class="header-img">
+				</div>	
+			</div>
+			
+		</div>
+	</div>
+	<!------------ about ------------->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="images/pranav-pic.png">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About me</h1>
+					<p>I am an enthusiastic undergraduate computer engineering student and a dedicated Full Stack Developer with a strong desire to expand my knowledge and make a positive impact. Being a 5⭐ Java Programmer @HackerRank, I constantly challenge myself to improve my coding skills and stay updated with the latest technologies.<br><br>
+
+					With a keen interest in software engineering, I aspire to build a successful career in the industry and leverage my technical expertise to develop innovative solutions. I am motivated by the opportunity to contribute to society by creating meaningful and impactful software applications.</p>
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li>
+								<span class="tab-head">Frontend Development</span><br>
+								<span>HTML</span>
+								<span>CSS</span>
+								<span>JavaScript</span>
+								<span>Bootstrap</span>
+							</li>
+							<li>
+								<span class="tab-head">Backend Development</span><br>
+								<span>PHP</span>
+								<span>jQuery</span>
+								<span>MySQL</span>
+								<span>MongoDB</span>
+							</li>
+							<li>
+								<span class="tab-head">Programming</span><br>
+								<span>JAVA</span>
+								<span>DSA</span>
+								<span>Problem Solving</span>
+							</li>
+							<li>
+								<span class="tab-head">Soft Skills</span><br>
+								<span>Communication</span>
+								<span>Critical Thinking</span>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li>
+								<span class="tab-head">Dec 2022 - Jan 2023</span><br>
+								<span>Elite Softwares (Web Developer Intern)</span>
+							</li>
+							<li>
+								<span class="tab-head">Mar 2022 - May 2022</span><br>
+								<span>Hill One(Teqzilla) Technologies (Web Developer Intern)</span>
+							</li>
+							<li>
+								<span class="tab-head">Oct 2021 - Dec 2021</span><br>
+								<span>Bhupati Softwares Pvt.Ltd. (Web Developer Intern)</span>
+							</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li>
+								<span class="tab-head">2020 - Current</span><br>
+								<span>Computer Engineering @AISSM College Of Engineering(SPPU)</span>
+							</li>
+							<li>
+								<span class="tab-head">2020</span><br>
+								<span>12th - 81% @Sharda Vidyaniketan Mahavidyalay(State Board)</span>
+							</li>
+							<li>
+								<span class="tab-head">2018</span><br>
+								<span>10th - 91% @School Of Scholars(CBSE Board)</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!------------ sevices ------------>
+	<div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div>
+					<i class="fa-solid fa-code"></i>
+					<h2>Web Development</h2>
+					<p>I offer comprehensive web development services tailored to your needs, with expertise in front-end and back-end development, ensuring a seamless user experience. From designing visually appealing websites to implementing robust functionalities, I deliver high-quality solutions that enhance your online presence and drive business growth.</p>
+					<a href="https://github.com/bokadepranav" target="_blank">Learn more..</a>
+				</div>
+				<div>
+					<i class="fa-solid fa-laptop-code"></i>
+					<h2>Java Programming</h2>
+					<p>I provide expert Java programming services for problem-solving, leveraging my strong algorithmic skills and deep understanding of the Java language. With a systematic approach, I analyze complex problems, design efficient solutions, and implement them using clean and maintainable code. My goal is to deliver reliable and optimized Java solutions that solve problems effectively and meet your specific requirements.</p>
+					<a href="https://www.hackerrank.com/pranavbokade279" target="_blank">Learn more..</a>
+				</div>
+				<div>
+					<i class="fa-solid fa-crop"></i>
+					<h2>Web Designing</h2>
+					<p>I provide exceptional web designing services that combine creativity, user-centric design principles, and the latest industry trends. With a focus on creating visually stunning and intuitive interfaces, I craft websites that captivate audiences, effectively communicate your brand's message, and elevate your online presence to new heights.</p>
+					<a href="https://github.com/bokadepranav" target="_blank">Learn more..</a>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!------------  portfolio  ------------>
+	<div id="portfolio">
+		<div class="container">
+			<h1 class="sub-title">My Work</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="images/work-1.png">
+					<div class="layer">
+						<h3>Cricket Management App</h3>
+						<p>Our cricket team management app offers a comprehensive platform to add, manage, delete, and showcase the top players from various cricket teams. With a user-friendly interface, team administrators can effortlessly add player profiles, update their information, and track their performance statistics. The app also includes a feature to display the top players from each team, allowing users to easily identify the key performers and follow their progress throughout the season.</p>
+						<a href="https://github.com/bokadepranav/IPLManagement" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+ 					</div>
+				</div>
+				<div class="work">
+					<img src="images/work-2.png">
+					<div class="layer">
+						<h3>Shopworm - Ecommerce Website</h3>
+						<p>Our fashion e-commerce app boasts a captivating and user-friendly frontend, designed to deliver an immersive shopping experience. With sleek and visually appealing interfaces, customers can effortlessly browse through a vast collection of trendy clothing, accessories, and footwear. The app offers intuitive search and filtering options, secure checkout processes, and personalized recommendations, ensuring a seamless and enjoyable shopping journey for fashion enthusiasts.</p>
+						<a href="https://github.com/bokadepranav/shopworm" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+ 					</div>
+				</div>
+				<div class="work">
+					<img src="images/work-3.png">
+					<div class="layer">
+						<h3>Show My Bus</h3>
+						<p>Our bus tracking app utilizes advanced Geo Location API technology to provide real-time information about the current location of buses. Users can easily track the exact position of buses on a map interface, enabling them to plan their journeys more efficiently. With accurate and reliable data, the app offers timely updates on bus arrivals, departures, and estimated arrival times, enhancing the overall commuting experience and ensuring users stay informed while on the go.</p>
+						<a href="https://github.com/bokadepranav/ShowMyBus" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+ 					</div>
+				</div>
+			</div>
+			<!------------ addon work ------------>
+			<div class="work-list work-list-addon" id="addon-work">
+				<div class="work">
+					<img src="images/work-4.png">
+					<div class="layer">
+						<h3>Tour India Blog</h3>
+						<p>Our blog "Tour India" aims to showcase the rich cultural heritage, diverse landscapes, and enchanting destinations that make India a top tourist hotspot. Through captivating narratives, vivid imagery, and insightful travel tips, we provide an immersive experience for readers, inspiring them to explore the wonders of India. From ancient historical sites and bustling cities to serene beaches and picturesque mountains, our blog serves as a comprehensive guide, offering valuable information and inspiring stories to ignite wanderlust and encourage travelers to embark on their Indian adventure.</p>
+						<a href="https://github.com/bokadepranav/tourindia.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+ 					</div>
+				</div>
+				<div class="work">
+					<img src="images/work-5.png">
+					<div class="layer">
+						<h3>GCE Akola</h3>
+						<p>The website of Government College of Education, Akola is a comprehensive platform that provides information and resources for students, faculty, and the general public. With a user-friendly interface, the website offers details about the college's history, academic programs, faculty profiles, admission procedures, and facilities available. Visitors can access news and events, download important documents, and stay updated on the latest announcements. The website serves as a valuable resource for prospective students, current students, and alumni, fostering a sense of community and promoting transparency in the educational process at Government College of Education, Akola.</p>
+						<a href="https://github.com/bokadepranav/GCEAkola" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+ 					</div>
+				</div>
+				<div class="work">
+					<img src="images/work-6.png">
+					<div class="layer">
+						<h3>Placement Portal</h3>
+						<p>The frontend of our placement website is thoughtfully designed to provide a seamless and user-friendly experience for both job seekers and employers. With an intuitive interface, it offers a range of features such as job search functionality, job listing categories, and advanced filtering options to help users find relevant job opportunities efficiently. The frontend also includes profiles for job seekers and employers, allowing them to showcase their skills, experience, and job requirements.</p>
+						<a href="https://github.com/bokadepranav/Placement" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+ 					</div>
+				</div>
+			</div>
+			<div style="display: flex;">
+				<button class="btn btn2" onclick="displayaddon()">See more</button>	
+			</div>
+			
+		</div>
+	</div>
+	<!------------ contact form ------------>
+	<div class="contact" id="contactid">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p><i class="fa-solid fa-paper-plane"></i><a href="mailto:pranavbokade279@gmail.com">pranavbokade279@gmail.com</a></p>
+					<p><i class="fa-solid fa-square-phone"></i><a href="tel:+917774056667">+91 7774056667</a></p>
+					<div class="social-icons">
+						<a href="https://www.linkedin.com/in/pranavbokade/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+						<a href="https://github.com/bokadepranav" target="_blank"><i class="fa-brands fa-github"></i></a>
+						<a href="https://www.instagram.com/bokade_pranav/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+						<a href="https://www.hackerrank.com/pranavbokade279" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+					</div>
+					<a href="images/Pranav_Bokade_Resume.pdf" download class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<span id="msg"></span>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright <i class="fa-regular fa-copyright"></i> All Rights Reserved, Developed by Pranav Bokade</p>
+		</div>
+	</div>
+
+	<script>
+		var tablinks = document.getElementsByClassName("tab-links");
+		var tabcontents = document.getElementsByClassName("tab-contents");
+
+	function opentab(tabname) {
+		for(tablink of tablinks) {
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents) {
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+	</script>
+
+	<script>
+		
+		var sidemenu = document.getElementById("sidemenu");
+
+		function openmenu() {
+			sidemenu.style.right = "0";
+		}
+		function closemenu() {
+			sidemenu.style.right = "-250px";
+		}
+
+	</script>
+
+	<script>
+	  const scriptURL = 'https://script.google.com/macros/s/AKfycbwb5GTn7PKvDDUd62WHgQ1haPia9nvaWjAUsfYT_Q1KBm_kiXKAAWYjodDV4eYmyClT/exec'
+	  const form = document.forms['submit-to-google-sheet']
+	  const msg = document.getElementById("msg");
+
+
+	  form.addEventListener('submit', e => {
+	    e.preventDefault()
+	    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+	      .then(response => {
+	      	msg.innerHTML = "Message sent successfully"
+	      	setTimeout(function(){
+	      		msg.innerHTML = ""
+	      	},5000)
+	      	form.reset()
+	      })
+	      .catch(error => console.error('Error!', error.message))
+	  })
+	</script>
+
+	<script>
+		
+		var addonwork = document.getElementById("addon-work")
+
+		function displayaddon() {
+			addonwork.classList.remove("work-list-addon");
+		}
+
+	</script>
+
+	<!-- typing animation -->
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+	<script>
+		var typed = new Typed(".auto-type" , {
+			strings: ["Software Developer" , "Fullstack Developer" , "Web Designer" , "Java Programmer"],
+			typeSpeed: 100,
+			backSpeed: 100,
+			loop: true
+		})
+	</script>
+</body>
+</html>
