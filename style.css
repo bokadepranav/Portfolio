@@ -439,11 +439,22 @@ nav .fa-solid {
 
 	.header-text {
 		margin-top: 100%;
+		margin-bottom: 10%;
 		font-size: 16px;
 	}
 
 	.header-text h1 {
 		font-size: 30px;
+	}
+
+	.header-section {
+		display: block;
+	}
+
+	.header-img {
+		margin-top: 20%;
+		width: 90%;
+		height: 90%;
 	}
 
 	nav .fa-solid {
@@ -497,6 +508,19 @@ nav .fa-solid {
 		margin-right: 20px;
 	}
 
+	.tab-contents ul li span {
+		background: #262626;
+		padding: 4px 6px;
+		border-radius: 5px;
+		margin-right: 5px;
+		line-height: 30px;
+		font-size: 14px;
+	}
+
+	.layer p {
+		font-size: 11px;
+	}
+
 	.contact-left , .contact-right {
 		flex-basis: 100%;
 	}
@@ -514,12 +538,21 @@ nav .fa-solid {
 	}
 
 	.header-text {
-		margin-top: 100%;
+		margin-top: 30%;
 		font-size: 24px;
 	}
 
 	.header-text h1 {
 		font-size: 40px;
+	}
+
+	.header-section {
+		display: block;
+	}
+
+	.header-img {
+		width: 80%;
+		height: 60%;
 	}
 
 	nav .fa-solid {
@@ -597,6 +630,14 @@ nav .fa-solid {
 	.tab-links {
 		font-size: 16px;
 		margin-right: 20px;
+	}
+
+	.layer h3 {
+		font-size: 24px;
+	}
+
+	.layer p {
+		font-size: 20px;
 	}
 
 	.contact-left , .contact-right {
